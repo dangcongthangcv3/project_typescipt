@@ -1,21 +1,3 @@
 .login {
-    // height: 100%;
-    // @media screen and (max-width: 768px) {
-    //     .left {
-    //       height: 100vh; /* Chiều cao của div bằng chiều cao màn hình cho màn hình có chiều rộng tối đa 768px */
-    //     }
-    //   }
-
-    .left {
-        background: url('./loginimg.png');
-        height: 100%;
-        padding: 0;
-        margin  : 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-          
-        .h1 {
-            column-gap: red;
-        }
-    }
+    
 }

@@ -1,21 +1,19 @@
 import React from 'react'
-import styles from './login.module.scss'
-import clsx from 'clsx'
 type Props = {}
 
 export default function LogIn({ }: Props) {
   return (
-    <div className={styles.login}>
-      <div className={styles.layout}>
-        <div className='row'>
-          <div className={clsx(styles.left, 'col-md-6')}>
-          </div>
-          <form className='col-md-6'>
-            a
-          </form>
-
-        </div>
+    <form>
+      <h3 className='textCenter'>Login</h3>
+      <div className='col-3'>
+        <label htmlFor='email'> Email</label>
+        <i className="fa-regular fa-envelope"></i>
+        <input className='form-control' placeholder='Email' id='email' />
       </div>
-    </div>
+      <div className='col-3'>
+        <label htmlFor='password'> Password</label>
+        <input className='form-control' placeholder='password' id='password' />
+      </div>
+    </form>
   )
 }
