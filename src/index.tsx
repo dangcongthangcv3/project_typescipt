@@ -12,7 +12,6 @@ root.render(
   <GlobalCss>
     <div>
       <LogIn></LogIn>
-      <App></App>
     </div>
   </GlobalCss>
 );
