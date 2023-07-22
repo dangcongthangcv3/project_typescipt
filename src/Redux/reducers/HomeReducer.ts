@@ -35,12 +35,12 @@ const initialState = {
   arrProject:[]
 }
 
-const HomeReducer = createSlice({
-  name: 'HomeReducer',
+const homeReducer = createSlice({
+  name: 'homeReducer',
   initialState,
   reducers: {}
 });
 
-export const {} = HomeReducer.actions
+export const {} = homeReducer.actions
 
-export default HomeReducer.reducer
+export default homeReducer.reducer
