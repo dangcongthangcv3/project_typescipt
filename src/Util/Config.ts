@@ -6,6 +6,8 @@ export const DOMAIN = 'https://jiranew.cybersoft.edu.vn'
 export const TOKEN = 'accessToken'
 export const USER_LOGIN = 'userLogin'
 
+export const history : any = createBrowserHistory()
+
 export const {getStoreJson, setStoreJson, getStore, setStore}= {
     getStoreJson: (name:string) : any =>{
         if(localStorage.getItem(name)){
